@@ -3,5 +3,5 @@
 -- Add any additional keymaps here
 local map = vim.keymap.set
 
--- Toggle NvimTree with Ctrl+b
-map("n", "<C-b>", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle File Tree" })
+-- Toggle NvimTree with Ctrl+b (Conflict with noice.nvim scroll backward)
+-- map("n", "<C-b>", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle File Tree" })
